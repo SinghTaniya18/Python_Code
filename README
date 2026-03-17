@@ -1,0 +1,31 @@
+Simple Python Calculator
+
+This project is a basic calculator built using Python. It is designed for beginners who are learning how to code and want to understand how simple programs work. The calculator runs in the command line and allows users to perform basic arithmetic operations easily.
+
+The main purpose of this project is to demonstrate how user input, conditional statements, and basic math operations can be used together in a Python program. It is a good starting point for anyone new to programming.
+
+Features
+
+This calculator can perform the following operations:
+
+Addition (+)
+
+Subtraction (-)
+
+Multiplication (*)
+
+Division (/)
+
+The program also includes simple error handling. For example, it prevents division by zero and shows a message if the user enters an invalid operator.
+
+How It Works
+
+When you run the program, it will ask you to enter a number. Then, you will be asked to choose an operator such as +, -, *, or /. After that, you will enter another number. The program will calculate the result based on your input and display it on the screen.
+
+The calculator uses basic Python concepts such as:
+
+input() to get user data
+
+if-elif-else statements to check the operator
+
+Arithmetic operators to perform calculations
