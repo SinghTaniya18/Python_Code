@@ -1,0 +1,28 @@
+import random
+
+choices = ["stone", "paper", "scissor"]
+
+while True:
+    user = input("Enter stone, paper, or scissor (or 'quit' to stop): ").lower()
+    
+    if user == "quit":
+        print("Thanks for playing!")
+        break
+
+    if user not in choices:
+        print("Invalid choice, try again.")
+        continue
+
+    computer = random.choice(choices)
+    print("Computer chose:", computer)
+
+    if user == computer:
+        print("It's a tie!")
+    elif (user == "stone" and computer == "scissor") or \
+         (user == "paper" and computer == "stone") or \
+         (user == "scissor" and computer == "paper"):
+        print("You win!")
+    else:
+        print("You lose!")
+
+    print()
