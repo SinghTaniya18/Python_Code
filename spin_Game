@@ -56,7 +56,8 @@ def main():
 
         balance += payout
 
-    print("Game over! You're out of money.")
+    print("You're out of money.")
+    print("Game Over")
 
 if __name__ == '__main__':
     main()
